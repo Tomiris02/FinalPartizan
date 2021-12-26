@@ -1,0 +1,720 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+.site {
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.page {
+	width: 100%;
+	height: 100%;
+	max-width: 1200px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 10px;
+}
+
+.box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	color: white;
+}
+
+.h_text {
+	font-size: 38px;
+	color: #1C4F8B;
+	font-weight: bold;
+}
+
+.button_small {
+	width: 250px;
+	height: 60px;
+	border-radius: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #EBEBEB;
+}
+
+.button_small:hover {
+	background-color: #F81C19;
+	color: white;
+}
+
+
+
+.header .site {
+	height: 50px;
+	background-color: #0877D2;
+}
+
+.header .a_text {
+	margin: 0 10px;
+	color: white;
+}
+
+.header .a_text:hover {
+	text-decoration: underline;
+}
+
+.header .a_img {
+	margin: 0 7px;
+}
+
+
+
+
+nav {
+	position: sticky;
+	top: 0;
+	background-color: white;
+	z-index: 3;
+}
+
+nav .site {
+	height: 60px;
+}
+
+nav .a_menu {
+	color: #1C4F8B;
+	margin-left: 10px;
+}
+
+nav .a_menu:hover {
+	text-decoration: underline;
+	text-decoration: none;
+}
+
+nav .a_text {
+	height: 100%;
+	padding: 0 30px;
+	display: flex;
+	align-items: center;
+	color: #0A0F32;
+}
+
+nav .a_text:hover {
+	background-color: #F81C19;
+	color: white;
+	box-shadow: 0 0 20px 0.001px blue;
+	text-decoration: none;
+}
+
+
+
+header .site {
+	height: 350px;
+	background-image: url("img/background/Group 1434 (1).png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	align-items: flex-start;
+}
+
+header .page {
+	height: 270px;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-around;
+}
+
+header .box_2 img {
+	position: relative;
+	top: -10px;
+	left: -20px;
+}
+
+header .h_text {
+	font-size: 62px;
+}
+
+header .box {
+	height: 20px;
+}
+
+header .a_text {
+	margin: 0 5px;
+}
+
+header .a_text:hover {
+	text-decoration: underline;
+}
+
+
+
+main .site_1 {
+	padding-top: 50px;
+}
+
+main .page {
+	flex-direction: column;
+}
+
+main .look_buttom {
+	background-color: white;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0 0 10px blue;
+}
+
+main .cards {
+	display: flex;
+}
+
+main .card {
+	margin: 20px 20px;
+	width: 317px;
+	box-shadow: 0 0 30px 1px blue;
+}
+
+main .card .info {
+	padding: 20px;
+}
+
+main .info div {
+	margin: 5px 0;
+}
+
+main .type_text {
+	 position: relative;
+}
+
+main .center_text {
+	position: absolute;
+	top: 5px;
+	left: 23px;
+}
+
+main .cards .h_text {
+	font-size: 22px;
+	color: #0A0F32;
+} 
+
+main .look {
+	background-color: #1C4F8B;
+	color: white;
+}
+
+
+main .site_2 {
+	padding: 150px 0;
+	background-image: url("img/background/Mask Group (6).png");
+	background-size: cover;
+}
+
+main .box2_for2 {
+	background-color: white;
+	border-radius: 25px;
+	width: 270px;
+	height: 50px;
+	margin: 50px 0;
+}
+
+main .button_for2 {
+	width: 135px;
+	height: 50px;
+	color: #1C4F8B;
+}
+
+main .button_for2:hover {
+	color: white;
+	background-color: #1C4F8B;
+	border-radius: 25px;
+}
+
+main .card_for2 {
+	width: 1185px;
+	height: 440px;
+	display: flex;
+}
+
+main .cards1_for2 {
+	background-image: url("img/Mask Group (5).png");
+	width: 525px;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+main .cards2_for2 {
+	font-size: 18px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin-left: 20px;
+}
+
+main .cards2_for2 .h_text {
+	font-size: 26px;
+}
+
+main  .cards2_for2 .p_text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+main  .cards2_for2 .p_text img {
+	margin-right: 10px;
+}
+
+main  .cards2_for2 .bron {
+	background-color: #F81C19;
+	width: 205px;
+	color: white;
+	box-shadow: 0 5px #950B0A;
+}
+
+main  .cards2_for2 .bron:hover {
+	background-color: #1C4F8B;
+	box-shadow: 0 5px #12355F;
+}
+
+main .site_3 .p_text {
+	font-size: 22px;
+	font-weight: bold;
+	margin: 20px 0;
+}
+
+main .cards_for3 {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+}
+
+main .card_for3 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	width: 245px;
+	height: 350px;
+	font-size: 22px;
+}
+
+main .button_for3 {
+	visibility: hidden;
+	margin: 20px 0;
+	width: 195px;
+}
+
+main .card_for3:hover {
+	box-shadow: 0 0 10px 0.1px blue;
+}
+
+main .card_for3:hover .button_for3{
+	visibility: visible;
+}
+
+
+
+main .site_4 {
+	background-image: url("img/background/фон.png");
+	background-size: cover;
+	padding: 50px 0 150px 0;
+}
+
+main .box_for4 {
+	display: flex;
+	justify-content: space-between;
+}
+
+main .site_4 .maincraft {
+	width: 320px;
+	height: 350px;
+	position: relative;
+	z-index: 0;
+	left: 130px;
+	top: 250px;
+}
+
+main .card_for4 {
+	background-color: white;
+	background-image: url("img/Group 1434.png");
+	background-size: cover;
+	display: flex;
+	width: 830px;
+	height: 550px;
+	z-index: 1;
+}
+
+main  .site_4 .water {
+	width: 305px;
+	height: 200px;
+	z-index: 2;
+	position: relative;
+	right: 130px;
+	top: 350px;
+}
+
+main .site_4 .cards_info {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	width: 390px;
+	height: 100%;
+}
+
+main .in_cards_info {
+	position: relative;
+}
+
+main .site_4 .img_info {
+	position: relative;
+	top: -70px;
+}
+
+main .text_in_img {
+	position: absolute;
+	color: white;
+	top: -50px;
+	left: 30px;
+}
+
+
+
+main .site_5 .p_text {
+	font-size: 22px;
+	color: #0A0F32;
+	margin-bottom: 70px;
+	font-weight: bold;
+}
+
+main .site_5 .card {
+	width: 270px;
+	height: 610px;
+}
+
+main .site_5 .card:hover {
+	position: relative;
+	top: -20px;
+}
+
+main .site_5 .img_cup {
+	height: 100px;
+	position: relative;
+}
+
+main .site_5 .img_cup img {
+	position: absolute;
+	top: -50px;
+}
+
+main .site_5 .info_bar {
+	padding: 10px;
+	height: 80%;
+	width: 100% - 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+main .site_5 .card .h_text {
+	font-size: 26px;
+	color: #0A0F32;
+}
+
+main .site_5 .card .text_check {
+	font-size: 18px;
+	color: #0A0F32;
+	margin: 10px 0;
+}
+
+main .site_5 .card .text_check img {
+	margin-right: 10px;
+}
+
+main .site_5 .card .price {
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+
+
+main .site_6 {
+	padding: 150px 0 100px 0;
+	background-size: cover;
+	background-image: url("img/background/Mask Group.png");
+}
+
+main .site_6 .p_text {
+	font-size: 22px;
+	color: #0A0F32;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+main .site_6 .card_for6 {
+	margin: 0 10px;
+}
+
+main .site_6 button {
+	background-color: red;
+	width: 275px;
+	height: 90px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 45px;
+	color: white;
+	margin-top: 20px;
+}
+
+
+
+main .site_7 .box {
+	height: 800px;
+	width: 100%;
+	flex-wrap: wrap;
+}
+
+main .site_7 .card_for7 {
+	height: 185px;
+	width: 370px;
+	display: flex;
+	color: #0A0F32;
+	font-size: 18px;
+}
+
+
+
+main .site_8 {
+	padding: 150px 0 150px 0;
+	background-size: cover;
+	background-image: url("img/background/Mask Group.png");
+}
+
+main .site_8 .p_text {
+	margin: 20px 0;
+	font-size: 22px;
+	font-weight: bold;
+	color: #0A0F32;
+}
+
+main .site_8 .box {
+	width: 100%;
+	justify-content: space-around;
+}
+
+main .site_8 .card_for8 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 530px;
+	height: 385px;
+	padding: 30px 20px;
+	background-size: cover;
+	background-image: url("img/background/Курс.png");
+}
+
+main .site_8 .card_for8 .main_text {
+	font-size: 38px;
+	font-weight: bold;
+
+}
+
+main .site_8 .card_for8 .shilde_text {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	margin: 10px 0;
+}
+
+main .shilde_text img {
+	margin-right: 10px;
+}
+
+main .site_8 .card_for8_2 {
+	background-image: url("img/background/Курс (1).png");
+}
+
+
+
+main .site_9 .box{
+	flex-direction: column;
+}
+
+main .site_9 .box2{
+	width: 100%;
+	display: flex;
+	color: #0A0F32;
+	box-shadow: 0 0 5px 0.1px blue;
+	margin: 10px 0;
+	justify-content: space-between;
+}
+
+main .site_9 .box .h_text {
+	font-size: 38px;
+	font-weight: bold;
+}
+
+main .site_9 .box .p_text {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+main .site_9 .info_bar_9 {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin: 0 10px;
+}
+
+main .site_9 button {
+	background-color: red;
+	width: 365px;
+	height: 90px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 45px;
+	color: white;
+}
+
+.site_9 .for_words {
+	display: flex;
+}
+
+.site_9 .for_words div {
+	margin-right: 20px;
+}
+
+
+
+main .site_10 {
+	padding: 50px 0;
+}
+
+main .site_10 iframe {
+	width: 670px;
+	height: 455px;
+}
+
+main .site_10 .go_with_us .h_text {
+	font-size: 22px;
+}
+
+main .site_10 .card_for2 {
+	justify-content: space-around;
+}
+
+
+
+main .site_11 {
+	background-image: url("img/background/tree.png");
+	background-size: cover;
+	padding: 100px 0;
+}
+
+main .site_11_line {
+	background: linear-gradient(to bottom, white 60%, #0A0F32 60%);
+}
+
+main .site_11 .cards_11 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	margin-top: 20px;
+}
+
+main .site_11 .card_11 {
+	text-align: center;
+}
+
+
+
+footer .site {
+	background-color: #0A0F32;
+	padding-top: 50px;
+}
+
+footer .page {
+	justify-content: center;
+	flex-direction: column;
+}
+
+.footer_block{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.footer_blocks .footer_img{
+	max-width: 185px;
+}
+
+.footer_blocks a{
+	margin: 10px 0;
+	display: flex;
+	flex-direction: column;
+	max-width: 215px;
+	font-size: 14px;
+	color: white;
+}
+
+.footer_blocks a:hover{
+	position: relative;
+	left: 20px;
+}
+
+.footer_blocks .big_text{
+	color: white;
+	font-size: 18px;
+	margin-top: 20px;
+}
+
+.footer_blocks hr{
+	background-color: white;
+	max-width: 30px;
+	height: 1px;
+}
+
+.social-set {
+	display: flex;
+	position: relative;
+	top: -20px;
+}
+
+.social-set img {
+	width: 30px;
+}
+
+.social-set a:hover {
+	position: static;
+}
+
+.last_f {
+	position: relative;
+	top: -20px;
+	color: white;
+}
+
+.last img {
+	width: 30px;
+	margin-right: 20px;
+}
+
+.last {
+	display: flex;
+}
+
+.last a:hover {
+	position: static;
+}
