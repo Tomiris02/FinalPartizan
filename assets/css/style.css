@@ -1,0 +1,1126 @@
+body {
+    margin: 0;
+}
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+h1,h2,h3,h4,h5,h6 {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+li,ol,ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 55px;
+}
+
+.img {
+    display: block;
+    max-width: 100%;
+    align-items: center;
+    height: auto;
+}
+.loc {
+    display: flex;
+    margin-right: 40px;
+}
+.contacts_logoName a {
+    color:  white;
+    text-decoration: none;
+}
+.contacts_link a{
+    color: white;
+}
+.contacts_socialMedia {
+    color: white;
+}
+.contacts_logo {
+    margin-right: 20px;
+}
+.location {
+    display: flex;
+}
+.contacts {
+    background-color: #0877D2;
+}
+.contacts_socialMedia {
+    display: flex;
+}
+.contacts_inner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 48px;
+}
+
+.contact {
+    display: flex;
+}
+.contact a {
+    margin-right: 15px;
+}
+.phone_contact {
+    margin-right: 15px;
+    color: white;
+}
+.contact_number {
+    margin-left: -10px;
+}
+
+/* Header */
+.header_inner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 62px;
+}
+.header_n {
+    color: #1C4F8B;
+    text-decoration: none;
+}
+.header_menu {
+    display: flex;
+    align-items: center;
+}
+.header_burger {
+    margin-right: 15px;
+}
+.header_link {
+    color: black;
+    text-decoration: none;
+    /* border-right: 1px solid black; */
+}
+
+.menu ul {
+    display: flex;
+}
+.menu a {
+    margin-left: 35px;
+    padding: 23px;
+}
+
+/* .header_links a:last-child {
+    border-right: none;
+} */
+
+.menu a:first-child {
+    margin-left: 0;
+}
+.header_link:hover {
+    height: 100%;
+    background-color: #F81C19;
+    color: white;
+}
+.header_burger{
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+}
+.burger__item {
+    display: block;
+    width: 27px;
+    height: 3px;
+    background-color: #1C4F8B;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.burger__item:last-child {
+    margin-bottom: 0;
+}
+
+/* Intro */
+/* .intro {
+    background-image: url("../img/фон\ \(1\).png");
+    height: 660px;
+    width: 100%;
+    max-width: 10000px;
+} */
+/* .imagebac {
+    position: relative;
+}
+.header_logo {
+    position: absolute;
+} */
+.intro_All {
+    background: white url("../img/фон\ \(2\).png") no-repeat;
+    background-size: 1600px;
+    height: 800px;
+}
+.intro {
+    background: white url("../img/фон\ \(1\).png") no-repeat;
+    background-size: 1600px;
+    height: 800px;
+}
+.intro_logo {
+    margin-left: 70px;
+}
+.intro_title {
+    color: #1C4F8B;
+    margin-left: 100px;
+    margin-top: 11px;
+    font-size: 30px;
+}
+.intro_subtitle {
+    margin-left: 100px;
+    margin-top: 80px;
+}
+.intro_col {
+    color: #797979;
+}
+.intro_lists {
+    display: flex;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+.intro_lists p {
+    margin-left: 10px;
+}
+.intro_lists img{
+    margin-left: 20px;
+}
+.intro_button {
+    border-radius: 30px;
+    padding: 10px 10px 10px 10px; 
+    margin-top: 40px;
+    margin-left: 100px;
+    background-color: black;
+}
+
+ .intro_btn_title {
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.image2 {
+    padding: 5px;
+    padding-left: 30px;
+    margin-right: 30px;
+    margin-bottom: -10px;
+} 
+
+.intro_button:hover {
+    background-color: red;
+    border: none;
+}
+.choice {
+    margin-top: -400px;
+}
+
+/* Content */
+.content_school {
+    background: white url("../img/Group\ 1088.png") no-repeat ;
+    background-size: 600px;
+    height: 400px;
+    width: 100%;
+    margin-top: -230px;
+}
+
+.content_title {
+    color: #1C4F8B;
+    margin-left: 100px;
+    margin-top: 10px;
+    padding-top: 20px;
+    font-size: 30px;
+}
+.content_list {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.content_btn {
+    display: flex;
+}
+.content_button {
+    border-radius: 30px;
+    padding: 20px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.content_btn_title {
+    margin-right: 40px;
+    padding-left: 30px;
+    padding-top: 5px;
+    color: white;
+}
+.content_button {
+    background-color: black;
+}
+.content_button:hover {
+    background-color: red;
+    border: none;
+}
+.content_inner {
+    display: flex;
+    /* padding-left: 100px;
+    padding-right: 100px; */
+    margin-left: 50px;
+    margin-right: 50px;;
+}
+.content_list img {
+    padding-right: 10px;
+} 
+.content_course {
+    background: white url("../img/icon/Group\ 1087.png") no-repeat ;
+    background-size: 600px;
+    height: 400px;
+    width: 100%;
+    margin-top: -230px;
+}
+
+/* Card */
+.card {
+    width: 315px;
+    height: 500px;
+    background:  url("../img/Rectangle\ 12.png") no-repeat ;
+}
+.cards {
+    background: white url("../img/Mask\ Group\ \(2\).png") no-repeat ;
+    height: 990px;
+    background-size: 1700px;
+}
+.cards_inner {
+    margin-left: 150px;
+    padding-top: 30px;
+    display: flex;
+}
+.card img {
+    margin-left: 50px;
+}
+.cards_title {
+    text-align: center;
+    padding-top: 80px;
+    color: #1C4F8B;
+}
+.card_cDesc {
+    margin-left: 80px;
+    margin-top: 20px;   
+}
+/* .imX {
+    margin-left: 50px;
+} */
+.imX {
+	position: relative;
+}
+
+.card_subtitle {
+	position	: absolute;
+    color: white;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+ .Xit {
+     display: flex;
+     margin-left: -50px;
+     margin-bottom: 10px;
+ }
+.card_btn {
+    border-radius: 30px;
+    padding: 21px 83px 21px 83px;
+    margin-left: -22px;
+    border: none;
+    
+}
+.card_btn_name {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #52535C;
+}
+.card_description {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #777984;
+}
+.card_btn:hover {
+    background-color: red;
+}
+.card_btn_name:hover {
+    color: white;
+}
+.card_main_btn {
+    border-radius: 30px;
+    margin-left: 550px;
+    margin-top: 50px;
+    padding: 20px 40px 20px 40px;   
+    border: none;
+    background-color: black;  
+}
+.card_main_btn_title {
+    color: white;
+}
+.card_main_btn:hover {
+    background-color: #1C4F8B;
+}
+
+/* Birtday */
+.birthday_title {
+    text-align: center;
+    margin-top: -90px;
+    color: #1C4F8B;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 38px;
+
+}
+.birthday1_card {
+    width: 400px;
+    display: flex;
+    margin-left: 250px;
+}
+.birthday2_card {
+    width: 400px;
+    display: flex;
+    margin-left: 250px;
+    margin-top: -50px;
+}
+.birthday1_card img {
+    margin-right: -50px;
+}
+.birthday2_card img {
+    margin-right: -50px;
+    margin-bottom: -170px;
+}
+.birthday {
+    background: white url("../img/Mask\ Group\ \(6\).png") no-repeat ;
+    background-size: 1350px;
+}
+/* Application */
+.application_title {
+    text-align: center;
+    color: #1C4F8B;
+    padding-top: 200px;
+}
+ .application {
+    background: white url("../img/Mask\ Group\ \(11\).png") no-repeat ;
+    background-size: 1700px;
+    height: 900px;
+} 
+.micro {
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.inp {
+    height: 40px;
+    width: 350px;
+    margin-bottom: 10px;
+} 
+.forms {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.inpt {
+    height: 90px;
+    width: 350px;
+    margin-bottom: -30px;
+}
+.application_inner {
+    display: flex;
+    margin-top: -500px;
+    margin-left: 300px;
+    background: white url("../img/Mask\ Group\ \(10\).png") no-repeat;
+    width: 700px;
+    height: 470px;
+    position: absolute;
+}
+.application_button {
+    border-radius: 30px;
+    padding: 30px 100px 21px 100px;
+    margin-left: -5px;
+    border: none;
+    background-color: black;
+    margin-top: -300px;
+}
+.application_btn {
+    display: flex;
+}
+.application_btn_title {
+    margin-right: 40px;
+    /* padding-left: 30px; */
+    padding-top: 3px;
+    color: white;
+}
+
+.application_button:hover {
+    background-color: red;
+    border: none;
+}
+.application_subtitle {
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: #1C4F8B;
+}
+.application_sub_title {
+    font-family: Roboto;
+    font-style: normal;
+}
+.application_form {
+    margin-top: 30px;
+}
+.appl_title {
+    padding-top: 30px;
+}
+.imgPis {
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 300px;
+}
+
+/* Discount */
+
+/* .discount {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+.discount_line {
+    border-bottom: 1px solid #CACACA; 
+    display: block;
+    width: 47.5px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+/* .dicount_cards 
+.img {
+    /* margin-left: -1px; */
+    /* margin-right: 20px; */
+/* } */
+.discount_inner {
+    display: flex;
+    justify-content: center;
+    width:  100%;
+    height: 470;
+}
+.dicount_cards {
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	margin-right: 50px; 
+}
+.button_for3 {
+	visibility: hidden;
+	margin: 50px 0px;
+    /* padding-left: 50px; */
+	width: 195px;
+    color: #52535C;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    background: #EBEBEB;
+    border-radius: 100px; 
+    padding: 20px 170px 20px 83px;
+    /* padding-top: 30px; */
+}
+.button_for3:hover {
+    color:#EBEBEB;
+    background:#db2616;
+}
+.discount_inner .dicount_cards:hover {
+    box-shadow: 0 0 10px 0.1px rgb(198, 198, 206);
+}
+.discount .dicount_cards:hover .button_for3 {
+    visibility: visible;
+}
+
+/* .discount_cards 
+.img:hover {
+    background-image: white url("../img/Rectangle\ 55.png") no-repeat;
+} */
+.application_inner {
+    display: flex;
+    margin-top: -500px;
+    margin-left: 300px;
+    background: white url("../img/Mask\ Group\ \(10\).png") no-repeat;
+    width: 700px;
+    height: 470px;
+    position: absolute;
+}
+.discount_title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    color: #1C4F8B;
+}
+
+/* BirthdayDescription */
+.BirthdayDescription_block {
+    display: flex;
+    justify-content: center;
+}
+/* .BirthdayDescription_inner {
+    width: 1040px;
+height: 538.76px;
+left: 441px;
+top: 5045.87px;
+
+    /* border: 5px;
+    box-shadow: 0 0 2px 0.001px #CACACA; */
+/* } */ 
+.BirthdayDescription_definition {
+    margin-top: 100px;
+}
+.BirthdayDescription_title {
+    font-size: 22px;
+    font-weight: 400;
+    font-style: normal;
+}
+.BirthdayDescription_subtitle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 130%;
+    margin-top: 20px;
+
+}
+.BirthdayDescription_inftitle {
+    color: #1C4F8B;
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 24px;
+    margin-top: 20px;
+    border-left: 2px solid #1C4F8B;
+}
+.colortext {
+    color: #db2616;
+}
+.colortextG {
+    font-weight: bolder;
+}
+
+/* GiftCertificate  */
+.GiftCertificate {
+    background-image: url("../img/Mask\ Group\ \(16\).png");
+    height: 1150px;
+    background-size: 500%; 
+    /* background-position: top 10000px inherit; */
+}
+.GiftCertificate_block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.gift_btn {
+    background: #EBEBEB;
+    color: #52535C;
+    margin-left: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 100px;
+    border: none;
+    box-shadow: 0px 19px 40px rgba(79, 14, 14, 0.15), 0px 20px 50px rgba(151, 7, 7, 0.83), 0px 4px 0px #faf6f6, inset 0px -4px 4px rgba(114, 15, 15, 0.25), inset 0px 4px 4px rgba(255, 255, 255, 0.25);
+}
+.gift_btn:hover {
+    background-color: #db2616;
+    box-shadow: 0px 19px 40px rgba(79, 14, 14, 0.15), 0px 20px 50px rgba(151, 7, 7, 0.83), 0px 4px 0px #554d4d, inset 0px -4px 4px rgba(114, 15, 15, 0.25), inset 0px 4px 4px rgba(255, 255, 255, 0.25);
+}
+.gift_btn_name {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: black;
+}
+.gift_btn:hover .gift_btn_name {
+    color: #FFFFFF;
+}
+.gift_title {
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 22px;
+    line-height: 140%;
+    margin-top: 100px;
+}
+.gift_subtitle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 130%;
+    margin-top: -10px;
+}
+  Hexadecimal colors
+.GiftCertificate_title {
+    color: #1C4F8B; 
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 38px;
+    line-height: 45px;
+/* identical to box height */
+    text-align: center;
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+}
+
+/* Location */
+.LocationP {
+    background: linear-gradient(to bottom, white 60%, #0A0F32 60%);
+    background-size: 1600px;
+   
+/* height: 1150px;
+background-size: 500%; */
+}
+.locationB {
+    background:  url("../img/Mask\ Group\ \(16\).png") no-repeat;
+    width: 100%;
+    height: 900px;
+    padding-top: 200px;
+}
+.location_time {
+    margin-top: 10px;
+}
+.location_a {
+    margin-top: 5px;
+    color: black;
+}
+.location_a:hover {
+    /* text-decoration: underline; */
+    color: #db2616;
+}
+.Location_inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+/* AboutCenterVideo */
+
+.AboutCenterVideo {
+    background: url("../img/Mask\ Group\ \(19\).png");
+	background-size: cover;
+	padding: 100px 0;
+}
+.AboutCenterVideo_logo {
+    margin-left: 500px;
+    margin-top: 20px;
+}
+.AboutCenterVideo_title {
+    text-align: center;
+}
+.AboutCenterVideo_information {
+    display: flex;
+    justify-content:space-evenly;
+	margin-top: 35px;   
+}
+.AboutCenterVideo_image {
+    margin-left: 100px;
+}
+.AboutCenterVideo_desc {
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    margin-right: 150px;
+}
+.AboutCenterVideo_Videotitle {
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 45px;
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+    color: #1C4F8B;
+    margin-top: 50px;
+}
+.AboutCenterVideo_VideoSubtitle {
+    text-align: center;
+    margin-top: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 130%;
+}
+.AboutCenterVideo_VideoInformation {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.p_text {
+    margin-top: 15px;
+}
+/* Footer */
+.hr {
+    border: 1px solid #FFFFFF;
+    width: 25.5px;
+    height: 0px;
+    /* margin-right: 1320px; */
+    margin-left: -0px;
+}
+.footer_location {
+    color: #FFFFFF;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* margin-top: 20px; */
+}
+.footer_subblock hr {
+    margin-top: 50px;
+}
+.footer_logo {
+    margin-top: -60px;
+}
+.social_media {
+    margin-top: 30px;
+}
+.footer_loc {
+    margin-top: 30px;
+    color: #FFFFFF;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.footer_title {
+    text-align: center;
+    margin-top: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 45px;
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 80px;
+}
+.footer_blocks {
+    display: flex;
+    justify-content:space-between;
+}
+.footer_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.footer_blocks a {
+    color: #FFFFFF;
+}
+.big_text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+.footer_last {
+    color: #FFFFFF;
+}
+/* footer .foot { */
+    /* background-image: url("../img/Mask\ Group\ \(20\).png");
+	background-size: cover;
+	padding: 100px 0;
+	padding-top: 50px; */
+   
+/* left: -2px;
+top: 10812.5px;
+    background:  url("../img/Mask\ Group\ \(20\).png") no-repeat; */
+    /* background-image:  url("../img/Mask\ Group\ \(20\).png") no-repeat;
+    height: 1990px;
+    background-size: -2000px; */
+    footer .foot {
+        /* background-image: url("../img/Mask\ Group\ \(20\).png"); 
+        background-position: bottom;  */
+        /* background-repeat: no-repeat; */
+        background-color: #0A0F32;
+	    padding-top: 50px;
+        height: 600px;
+    }
+
+    .footer_blocks a:hover {
+        color: #4291EE;
+        border-left: 5px solid #4291EE;
+    }
+
+    /* Choice */
+    .tabs {
+        max-width: 600px;
+        margin: 50px auto;
+    }
+    
+    .tabs__nav {
+        display: flex;
+    }
+    
+    .tabs__nav-btn {
+        padding: 15px 30px;
+    
+        font-size: 20px;
+    
+        background-color: #f5f5f5;
+        border: 0;
+        border-right: 1px solid #ddd;
+        cursor: pointer;
+    }
+    
+    .tabs__nav-btn:last-child {
+        border-right: none;
+    }
+    
+    .tabs__nav-btn:hover {
+        background-color: #ddd;
+    }
+    
+    .tabs__nav-btn.active {
+        background-color: #5e3ddf;
+        border-right-color: #5e3ddf;
+        color: #fff;
+    }
+    
+    .tabs__content {
+        padding: 30px;
+        background-color: #fff;
+    }
+    
+    .tabs__item {
+        display: none;
+    }
+    
+    .tabs__item.active {
+        display: block;
+    }
+    .intro_News {
+        background: white url("../img/фон\ \(7\).png") no-repeat;
+        background-size: 1600px;
+        height: 450px;
+    }
+
+    /* NewWorld */
+    .TwoChoice {
+        display: flex;
+    }
+    .OrgChoice {
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+
+
+    @media (max-width: 881px) {
+    
+        .intro_All {
+            width: 100%;
+        }
+        .content {
+            height: 900px;
+        }
+        .content_inner {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin-top: 50px;
+           
+        }
+        .content_school {
+            margin-bottom: 400px;
+            margin-top: -100px;
+        }
+        .cards {
+            height: 2000px;
+        }
+        .cards_inner {
+            display: flex;
+            flex-direction: column;
+        }
+        .card_main_btn {
+           text-align: center;
+        }
+        .button_cards
+        .card_main_btn {
+          text-align: center;
+        }
+        .birthday_inner {
+            /* display: flex;
+            flex-direction: column;
+            align-items: right; */
+            margin-right: 200px;
+        }
+        .birthday1_card:first-child{
+            margin-left: 100px;;
+            padding-right: 100px;
+        }
+        .birthday2_card:nth-child(2) {
+            margin-left: 100px;
+            padding-right: 100px;
+        }
+        .application_form {
+            padding-right: 400px;
+        }
+        /* .gift_btn {
+            padding-bottom: -300px;
+        } */
+        .Location_inner {
+            margin-top: 100px;
+        }
+        .AboutCenterVideo_information {
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+        }
+        .AboutCenterVideo_Inftitle {
+            margin-top: 50px;
+        }
+        .AboutCenterVideo_desc {
+            margin-left: 160px;
+        }
+        .AboutCenterVideo_logo  {
+            margin-right: 180px;
+        }
+        .AboutCenterVideo_VideoInformation {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+    }
+
+    @media (max-width: 1024px) {
+          .intro_All {
+              width: 100%;
+          }
+          .content {
+              height: 900px;
+          }
+          .content_inner {
+              display: flex;
+              flex-direction: column;
+              justify-content: space-between;
+              margin-top: 50px;
+             
+          }
+          .content_school {
+              margin-bottom: 400px;
+              margin-top: -100px;
+          }
+          .cards {
+              height: 2000px;
+          }
+          .cards_inner {
+              display: flex;
+              flex-direction: column;
+          }
+          .card_main_btn {
+             text-align: center;
+          }
+          .button_cards
+          .card_main_btn {
+            text-align: center;
+          }
+          .birthday_inner {
+              /* display: flex;
+              flex-direction: column;
+              align-items: right; */
+              margin-right: 200px;
+          }
+          .birthday1_card:first-child{
+              margin-left: 100px;;
+              padding-right: 100px;
+          }
+          .birthday2_card:nth-child(2) {
+              margin-left: 100px;
+              padding-right: 100px;
+          }
+          .application_form {
+              padding-right: 400px;
+          }
+          /* .gift_btn {
+              padding-bottom: -300px;
+          } */
+          .Location_inner {
+              margin-top: 100px;
+          }
+          .AboutCenterVideo_information {
+              display: flex;
+              flex-direction: column;
+              align-items:center;
+          }
+          .AboutCenterVideo_Inftitle {
+              margin-top: 50px;
+          }
+          .AboutCenterVideo_desc {
+              margin-left: 160px;
+          }
+          .AboutCenterVideo_logo  {
+              margin-right: 180px;
+          }
+          .AboutCenterVideo_VideoInformation {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+          }
+    }
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+/* .forrm {
+    height: 250px;
+} */
+
+/* .AboutCenterVideo_information {
+	width: 1185px;
+	height: 440px;
+	display: flex;
+} */
+
+/* .cards1_for2 {
+	background-image: url("img/Mask Group (5).png");
+	width: 525px;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+} */

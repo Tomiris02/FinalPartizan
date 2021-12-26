@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=1200, initial-scale=1">
+        <title>Final</title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script type = "text/javascript" src = "vue.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.5/TweenLite.min.js"></script>
+        <script src="https://unpkg.com/vue"></script>
+        <style>
+          svg {
+            display: block;
+          }
+          polygon {
+            fill: #41b883;
+          }
+          circle {
+            fill: transparent;
+            stroke: #35495e;
+          }
+          input[type="range"] {
+            display: block;
+            width: 100%;
+            margin-bottom: 15px;
+          }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <div class="site">
+                <div class="page">
+                    <div class="box">
+                        <a href=""><img src="img/icon/location-sharp.svg"></a>
+                        <a href="" class="a_text">Ульяновск</a>
+                        <a href="" class="a_text">Как добраться</a>
+                    </div>
+                    <div class="box">
+                        Соц сети:
+                        <a href="" class="a_img"><img src="img/icon/instagram.svg"></a>
+                        <a href="" class="a_img"><img src="img/icon/vk.svg"></a>
+                    </div>
+                    <div class="box">
+                        <a href="" class="a_img"><img src="img/icon/whatsapp.svg"></a>
+                        <a href="" class="a_img"><img src="img/icon/logotype.svg"></a>
+                        <a href="" class="a_img"><img src="img/icon/social-media.svg"></a>
+                        <a href="" class="a_text">Обратный звонок</a>
+                        <a href=""><img src="img/icon/call.svg"></a>
+                        <a href="" class="a_text" style="margin: 0;">33 - 54 - 62</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <nav>
+            <div class="site">
+                <div class="page">
+                    <div class="box">
+                        <a href=""><img src="img/icon/menu.svg"></a>
+                        <a href="" class="a_menu">Меню</a>
+                    </div>
+                    <div class="box">
+                        <a href="../Page_3/index.html" class="a_text">Детям</a>
+                        <a href="../Page_4/index.html" class="a_text">Взрослым</a>
+                        <a href="../Page_6/index.html" class="a_text">Школа мужского развития</a>
+                        <a href="" class="a_text">Подарочный сертификат</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+
+
+        <header>
+            <div class="site">
+                <div class="page">
+                        <img src="img/image 3.png">
+                        <b class="h_text">Бекзатолла</b>
+                    <div class="box">
+                        <a href="" class="a_text">Главная</a>
+                        <img src="img/icon/Ellipse.svg">
+                        <a href="" class="a_text"><i>Бекзатолла</i></a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <hr class="Hr" style="border-color: hsl(0, 100%, 50%);">
+        <hr class="Hr" style="border-color: hsl(240, 100%, 50%, 0.5);">
+        <hr class="Hr" style="border-color: rgb(59, 118, 225);">
+        <hr class="Hr" style="border-color: rgb(59, 118, 225, 0.5);">
+        <hr class="Hr" style="border-color: #89CFF0">
+        <hr class="Hr">
+        <hr class="Hr">
+
+        <main>
+            <div class="container">
+                <div class="block">
+                    <textarea class="area_text"></textarea>
+                    <textarea class="area_text"></textarea>
+                    <textarea class="area_text"></textarea>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="block">
+                    <ol>
+                        <li>Lol</li>
+                    </ol>
+                    <ol>
+                        <ul>
+                            <li>Lol</li>
+                        </ul>
+                    </ol>
+                    <ul>
+                        <li>Lol</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="block">
+                    <button type="button" class="btn btn-outline-primary">Primary</button>
+                    <button type="button" class="btn btn-outline-secondary">Secondary</button>
+                    <button type="button" class="btn btn-outline-success">Success</button>
+                    <button type="button" class="btn btn-outline-danger">Danger</button>
+                    <button type="button" class="btn btn-outline-warning">Warning</button>
+                    <button type="button" class="btn btn-outline-info">Info</button>
+                    <button type="button" class="btn btn-outline-light">Light</button>
+                    <button type="button" class="btn btn-outline-dark">Dark</button>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="block">
+                    <table class="table table-dark table-hover">
+                        <tr>
+                          <td>Что вы любите</td>
+                          <td>
+                            <input type="radio" name="ok">Аниме
+                            <input type="radio" name="ok">Фильм
+                            <input type="radio" name="ok">Театр
+                            </td>
+                        </tr>
+                        <tr>
+                          <td>Вам нравиться</td>
+                          <td>
+                            <input type="checkbox" name="">Новый год
+                            <input type="checkbox" name="">Деньги
+                            <input type="checkbox" name="">Здоровье
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>День рождения</td>
+                          <td><input type="date" name=""></td>
+                        </tr>
+                        <tr>
+                          <td>Имя</td>
+                          <td><input type="text" name=""></td>
+                        </tr>
+                        <tr>
+                          <td>Ваша желаемая зарплата</td>
+                          <td><input type="number" name=""></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+
+            <div class="container">
+                <div id="app">
+                  <svg width="200" height="200">
+                    <polygon :points="points"></polygon>
+                    <circle cx="100" cy="100" r="90"></circle>
+                  </svg>
+                  <label>Sides: {{ sides }}</label>
+                  <input type="range" min="3" max="500" v-model.number="sides" />
+                  <label>Minimum Radius: {{ minRadius }}%</label>
+                  <input type="range" min="0" max="90" v-model.number="minRadius" />
+                  <label>Update Interval: {{ updateInterval }} milliseconds</label>
+                  <input type="range" min="10" max="2000" v-model.number="updateInterval" />
+                </div>
+            </div>
+
+            <script>
+              new Vue({
+                el: "#app",
+                data: function() {
+                  var defaultSides = 10;
+                  var stats = Array.apply(null, { length: defaultSides }).map(
+                    function() {
+                      return 100;
+                    }
+                  );
+                  return {
+                    stats: stats,
+                    points: generatePoints(stats),
+                    sides: defaultSides,
+                    minRadius: 50,
+                    interval: null,
+                    updateInterval: 500
+                  };
+                },
+                watch: {
+                  sides: function(newSides, oldSides) {
+                    var sidesDifference = newSides - oldSides;
+                    if (sidesDifference > 0) {
+                      for (var i = 1; i <= sidesDifference; i++) {
+                        this.stats.push(this.newRandomValue());
+                      }
+                    } else {
+                      var absoluteSidesDifference = Math.abs(sidesDifference);
+                      for (var i = 1; i <= absoluteSidesDifference; i++) {
+                        this.stats.shift();
+                      }
+                    }
+                  },
+                  stats: function(newStats) {
+                    TweenLite.to(this.$data, this.updateInterval / 1000, {
+                      points: generatePoints(newStats)
+                    });
+                  },
+                  updateInterval: function() {
+                    this.resetInterval();
+                  }
+                },
+                mounted: function() {
+                  this.resetInterval();
+                },
+                methods: {
+                  randomizeStats: function() {
+                    var vm = this;
+                    this.stats = this.stats.map(function() {
+                      return vm.newRandomValue();
+                    });
+                  },
+                  newRandomValue: function() {
+                    return Math.ceil(
+                      this.minRadius + Math.random() * (100 - this.minRadius)
+                    );
+                  },
+                  resetInterval: function() {
+                    var vm = this;
+                    clearInterval(this.interval);
+                    this.randomizeStats();
+                    this.interval = setInterval(function() {
+                      vm.randomizeStats();
+                    }, this.updateInterval);
+                  }
+                }
+              });
+
+              function valueToPoint(value, index, total) {
+                var x = 0;
+                var y = -value * 0.9;
+                var angle = ((Math.PI * 2) / total) * index;
+                var cos = Math.cos(angle);
+                var sin = Math.sin(angle);
+                var tx = x * cos - y * sin + 100;
+                var ty = x * sin + y * cos + 100;
+                return { x: tx, y: ty };
+              }
+
+              function generatePoints(stats) {
+                var total = stats.length;
+                return stats
+                  .map(function(stat, index) {
+                    var point = valueToPoint(stat, index, total);
+                    return point.x + "," + point.y;
+                  })
+                  .join(" ");
+              }
+            </script>
+
+
+            <div class="site site_10">
+                <div class="page">
+                    <div class="card_for2">
+                        <div class="cards2_for2">
+                            <div>
+                                <div class="h_text">Как нас найти</div>
+                                <div class="p_text"><img src="img/icon/location-sharp_blue.svg">г. Ульяновск, ул. Октябрьская, 22Г к1</div>
+                                <a href="" style="margin-left: 30px;">Как добраться</a>
+                                <div class="p_text" style="justify-content: flex-start;"><img src="img/icon/time-sharp.svg">Время работы игрового центра:</div>
+                                <div style="margin-left: 30px;">ПН-ВС: 10:00 — 00:00<br>Без перерывов и выходных</div>
+                                <hr>
+                                <div class="h_text">Контакты</div>
+                                <a href=""><img src="img/icon/call_blue.svg"></a>
+                                <a href="" class="a_text" style="margin: 0;">33 - 54 - 62</a>
+                                <a href="" class="a_img"><img src="img/icon/whatsapp.svg"></a>
+                                <a href="" class="a_img"><img src="img/icon/logotype.svg"></a>
+                                <a href="" class="a_img"><img src="img/icon/social-media.svg"></a>
+                                <hr>
+                            </div>
+                            <div class="go_with_us">
+                                <div class="h_text">Присоединяйтесь к нашей семье:</div>
+                                <br>
+                                <a href="" class="a_img"><img src="img/icon/instagram.svg"></a>
+                                <a href="" class="a_img"><img src="img/icon/vk.svg"></a>
+                            </div>
+                        </div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23265.686482032863!2d76.66398055397687!3d43.20506753327698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38834f7675d8a6c3%3A0x7b7d14aec270c056!2z0KPQvdC40LLQtdGA0YHQuNGC0LXRgiDQodGD0LvQtdC50LzQsNC9INCU0LXQvNC40YDQtdC70Y8!5e0!3m2!1sru!2skz!4v1638330979802!5m2!1sru!2skz" width="670" height="455" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="site_11_line">
+                <div class="site site_11">
+                    <div class="page">
+                        <img src="img/image 3.png">
+                        <div class="h_text" style="margin-bottom: 50px;">Развлекательный центр «Партизан»</div>
+
+                        <div class="card_for2">
+                            <div class="cards1_for2">
+                                <div style="width: 100%; height: 100%;" id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner" style="width: 100%; height: 100%;">
+                                        <div class="carousel-item active" style="width: 100%; height: 100%;">
+                                            <img class="d-block w-100" src="img/смешные-аниме-рожи-002.jpg" alt="Первый слайд" style="width: 100%; height: 100%;">
+                                        </div>
+                                        <div class="carousel-item" style="width: 100%; height: 100%;">
+                                            <img class="d-block w-100" src="img/Без названия.jpeg" alt="Второй слайд" style="width: 100%; height: 100%;">
+                                        </div>
+                                        <div class="carousel-item" style="width: 100%; height: 100%;">
+                                            <img class="d-block w-100" src="img/iori.jpeg" alt="Третий слайд" style="width: 100%; height: 100%;">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                        <div class="look_buttom"><img src="img/icon/Mask Group (1).svg"></div>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                        <div class="look_buttom"><img src="img/icon/Mask Group.svg"></div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="cards2_for2" style="max-width: 600px;">
+                                <div>Наша веселая команда сделает незабываемым Ваш праздник или день рождения. Проведёт активный школьный выпускной для всего класса! Поможет расстрелять Вашего начальника на крутейшем корпоративе!</div>
+                                <div><b>Только у нас:</b></div>
+                                <div class="p_text"><img src="img/icon/shield-checkmark.svg">Самые современные развлечения в одном месте (нёрф, лазертаг, VR, интерактивный тир, ютуб-вечеринка, PS4, аниматоры и т.д.);</div>
+                                <div class="p_text"><img src="img/icon/shield-checkmark.svg">Оборудованные открытая и закрытая площадки в городе, есть возможность выезда на вашу территорию;</div>
+                                <div class="p_text"><img src="img/icon/shield-checkmark.svg">Самое новое оборудование.</div>
+                            </div>
+                        </div>
+
+                        <div class="h_text">Посмотрите видео</div>
+                        <div class="p_text">Эмоции наших гостей скажут больше, чем просто слова!</div>
+                        <div class="cards_11">
+                            <div class="card_11">
+                                <iframe width="350" height="200" src="https://www.youtube.com/embed/wNxW92ZiIdc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <div class="p_text">Лазертаг-приключение "День в армии"</div>
+                            </div>
+                            <div class="card_11">
+                                <iframe width="350" height="200" src="https://www.youtube.com/embed/wNxW92ZiIdc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <div class="p_text">Подпольные игры 18+</div>
+                            </div>
+                            <div class="card_11">
+                                <iframe width="350" height="200" src="https://www.youtube.com/embed/wNxW92ZiIdc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <div class="p_text">Школа Партизан</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+
+
+        <footer>
+            <div class="site">
+                <div class="page">
+                    <div class="h_text" style="color: white;">ОГО! ВЫ ДОЛИСТАЛИ ДО КОНЦА</div>
+                    <div class="footer_block">
+                        <div class="footer_blocks">
+                            <img class="footer_img" src="img/image 3.png">
+                            <a href="">Центр развлечения для детей и взрослых в Ульяновске</a>
+                            <a href="">Политика конфиденциальности</a>
+                            <a href="">Copyright 2006-2020 г.</a>
+                        </div>
+                        <div class="footer_blocks">
+                            <div class="big_text">ГОСТЯМ</div>
+                            <hr>
+                            <a href="">Главная страница</a>
+                            <a href="">Все услуги</a>
+                            <a href="">Новости и акции</a>
+                            <a href="">Подарочные сертификаты</a>
+                            <a href="">Личный кабинет</a>
+                        </div>
+                        <div class="footer_blocks">
+                            <div class="big_text">УСЛУГИ</div>
+                            <hr>
+                            <a href="">Все развлечения</a>
+                            <a href="../Page_3/index.html">Детские праздники</a>
+                            <a href="../Page_4/index.html">Корпоративные мероприятия</a>
+                            <a href="../Page_5/index.html">Выездные мероприятия</a>
+                            <a href="">Лазертаг</a>
+                            <a href="">Анимация</a>
+                        </div>
+                        <div class="footer_blocks">
+                            <div class="big_text">О ЦЕНТРЕ</div>
+                            <hr>
+                            <a href="../Bekzatolla_page/index.html">Контактная информация</a>
+                            <a href="">Юридическая информация</a>
+                            <a href="">3D-тур</a>
+                            <a href="">Франшиза</a>
+                        </div>
+
+
+
+                        <div class="footer_blocks">
+                            <div class="big_text">КОНТАКТЫ</div>
+                            <hr>
+                            <div class="">
+                                <div style="color: white;"><img src="img/icon/location-sharp.svg"> Ульяновск</div>
+                                <a href="" class="a_text" style="margin-left: 25px;">Как добраться</a>
+                            </div>
+                            <div class="">
+                                <div>
+                                    <div style="position: relative; left: -20px; color: white;"><img src="img/icon/call.svg">33 - 54 - 62</div>
+                                    <a href="" class="a_text" style="position: relative; top: -25px; left: 30px;">Обратный звонок</a>
+                                </div>
+                                <div class="social-set">
+                                    <a href="" class="a_img"><img src="img/icon/whatsapp.svg"></a>
+                                    <a href="" class="a_img"><img src="img/icon/logotype.svg"></a>
+                                    <a href="" class="a_img"><img src="img/icon/social-media.svg"></a>
+                                </div>
+                            </div>
+                            <div class="last_f">
+                                Соц сети:
+                                <div class="last">
+                                    <a href="" class="a_img"><img src="img/icon/instagram.svg"></a>
+                                    <a href="" class="a_img"><img src="img/icon/vk.svg"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
